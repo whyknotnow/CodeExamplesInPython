@@ -1,0 +1,42 @@
+grade = 82
+if grade >= 90:
+	if grade == 100:
+		print 'A+'
+	else:
+		print 'A'
+elif grade >= 80:
+	print 'B'
+elif grade >= 70:
+	print 'C'
+else:
+	print 'F'
+
+#Bif
+
+
+"""For loop example"""
+for x in range(10): #0-9
+	print x
+
+
+fruits = ['Apple', 'Orange']
+for fruit in fruits:
+	print fruit
+
+for key, value in person.items():
+	print '%s: %s' % (key, value)
+
+"""while loop"""
+x = 0
+while x < 100:
+	print x
+	x += 1
+
+"""list comprehensions"""
+
+odds = [ x for x in range (50) if x % 2 ]
+
+evens = []
+for x in range(50):
+	if not(x % 2):
+		evens.append(x)

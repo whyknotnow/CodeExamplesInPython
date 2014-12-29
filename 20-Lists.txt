@@ -1,0 +1,23 @@
+# Lists can be heterogeneous
+favorites = []
+
+# Appending
+favorites.append(42)
+
+# Extending
+favorites.extend(["Python", True])
+
+# Equivalent to
+favorites = [42, "Python", True]
+
+# Length
+len(favorites)
+
+favorites[0]
+#42
+
+favorites[0:2]  """ -den, -e kadar"""
+# "Python", True
+
+favorites[1:]
+# "Python", True

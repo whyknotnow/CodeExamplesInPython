@@ -1,0 +1,21 @@
+person = {}
+
+# Set by key / get by key
+person['name']="Caglar Akbulut"
+
+# Update
+person.update({
+	'favorites': [42, 'food'],
+	'gender': 'male',
+})
+
+# Any immutable object can be a dictionary key
+""" Degiskenler disinda her sabit key olarak atanabilir """
+
+person[42] = "favorite number"
+person[(44.47, -73,21)] = "coordinates"
+
+# Get keys / values
+person.keys()
+person.values()
+person.items()

@@ -1,0 +1,10 @@
+year=2010
+year=int("2010")
+
+# Floating point numbers
+pi=3.14159265
+pi=float("3.14159265")
+
+# Fixed point numbers
+from decimal import Decimal
+price = Decimal("0.02")

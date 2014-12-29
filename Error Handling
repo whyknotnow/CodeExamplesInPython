@@ -1,0 +1,13 @@
+import datetime
+import random
+
+day=random.choice(['Eleventh', 11])
+
+try:
+	date='September ' + day
+except TypeError:
+	date = datetime.date(2010, 9, day)
+else:
+	date += ' 2010'
+finally:
+	print date

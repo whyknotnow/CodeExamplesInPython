@@ -1,0 +1,17 @@
+#This is a string
+name = "Caglar Akbulut (that\"s me)"
+
+#This is also a string
+home = 'Huntington, VT'
+
+#This is a multi-line string
+sites = '''You can find me online
+on sites like GitHub
+and Twitter.'''
+
+#This is also a multi-line string
+bio = """If you don't find me online
+you can find me
+outside.
+Yup."""
+

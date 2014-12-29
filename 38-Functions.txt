@@ -1,0 +1,45 @@
+def my_function():
+	"""Function Documentation"""
+	print "Hello world"
+
+
+"""Function arguments"""
+
+# Positional
+def add(x, y):
+	return x+y
+
+# Keyword
+def shout(phrase="Yipee!"):
+	print phrase
+
+# Positional + Keyword
+def echo(text, prefix=""):
+	print '%s%s' % (prefix, text)
+
+# Arbitrary arguments
+def arbitrary(*args, **kwargs):
+	for arg in args:
+		print arg
+
+	for key, value in kwargs.items():
+		print key
+
+# Fibonacci
+def fibonacci(n):
+	"""Return Fibonacci up to n."""
+	results=[]
+	a, b = 0, 1
+	while a < n:
+		results.append(a)
+		a, b = b, a+b
+	return a
+
+# Fibonacci generator using yield keyword
+def yieldfibonacci():
+    """Yield Fibonacci"""
+    a, b = 0, 1
+    while True:
+        yield a
+	a, b = b, a+b
+		

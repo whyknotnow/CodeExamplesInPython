@@ -1,0 +1,14 @@
+animals="cats " + "dogs"
+animals+=" rabbits"
+#cats dogs rabbits
+
+fruit = ', '.join(['Apple', 'Banana', 'Orange'])
+#Apple, Banana, Orange
+
+date = '%s %d %d' % ('Sept', 11, 2010)
+#Sept 11 2010
+
+name = '%(first)s %(last)s' % {
+	'first' : 'Caglar',
+	'last' : 'Akbulut'}
+#Caglar Akbulut

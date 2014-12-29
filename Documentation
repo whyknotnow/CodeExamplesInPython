@@ -1,0 +1,4 @@
+def foo():
+    """blablabla bla bla
+and also blababla and bla"""
+    pass
